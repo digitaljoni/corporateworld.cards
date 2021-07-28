@@ -1,13 +1,327 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Corporate World Trading Cards</title>
-    <meta name="description" content="Corporate World Trading Cards are NFT COLLECTIBLE CARDS ON WAX BLOCKCHAIN">
-    <meta name="keywords" content="nft, trading cards, wax, blockchain, nftart">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="author" content="jonezy" />
+  <meta name="description" content="Featuring" />
+  <title>Corporate World (Hell on Earth) | Jonezy Art</title>
+  <link href="https://unpkg.com/tailwindcss@2.1.4/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+
+  <link href="./css/main.css" rel="stylesheet">
+  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQTC73CJJT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-EQTC73CJJT");
+  </script>
 </head>
-<frameset rows="100%,*" border="0">
-    <frame src="https://jonezy.art/wax/corporate_world/" frameborder="0" />
-</frameset>
+
+<body>
+
+
+
+  <div class="min-h-screen	bg-fixed	bg-no-repeat bg-cover bg-center bg-top p-2 bg-black"
+    style="background-image: url(./images/background_5.png); height: 100%;">
+    <div class="mb-20">
+
+    </div>
+    <div class="mx-auto main-container">
+
+
+      <div class="grid grid-cols-4">
+
+        <div class="col-span-4 text-center">
+          <h1 class="font-bold text-xl sm:text-2xl text-white">Series 2 Launch Date</h1>
+        </div>
+
+        <!-- timer start -->
+        <div class="col-span-4 mb-4">
+          <div class=" flex items-center justify-center " x-data="launchTimer()" x-init="start()">
+            <div x-show="show" class="text-yellow-100">
+              <div class="text-3xl md:text-5xl text-center flex w-full items-center justify-center">
+                <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                  <div class="font-mono leading-none" x-text="days">00</div>
+                  <div class="font-mono uppercase text-sm leading-none">Days</div>
+                </div>
+                <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                  <div class="font-mono leading-none" x-text="hours">00</div>
+                  <div class="font-mono uppercase text-sm leading-none">Hours</div>
+                </div>
+                <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                  <div class="font-mono leading-none" x-text="minutes">00</div>
+                  <div class="font-mono uppercase text-sm leading-none">Minutes</div>
+                </div>
+                <div class="w-24 mx-1 p-2 bg-black text-white rounded-lg">
+                  <div class="font-mono leading-none" x-text="seconds">00</div>
+                  <div class="font-mono uppercase text-sm leading-none">Seconds</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <script>
+            function launchTimer() {
+              return {
+                show: true,
+                seconds: '00',
+                minutes: '00',
+                hours: '00',
+                days: '00',
+                distance: 0,
+                countdown: null,
+                launchTime: new Date('July 31, 2021 16:00:00 UTC').getTime(),
+                now: new Date().getTime(),
+                start: function () {
+                  this.countdown = setInterval(() => {
+                    // Calculate time
+                    this.now = new Date().getTime();
+                    this.distance = this.launchTime - this.now;
+                    // Set Times
+                    this.days = this.padNum(Math.floor(this.distance / (1000 * 60 * 60 * 24)));
+                    this.hours = this.padNum(Math.floor((this.distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+                    this.minutes = this.padNum(Math.floor((this.distance % (1000 * 60 * 60)) / (1000 * 60)));
+                    this.seconds = this.padNum(Math.floor((this.distance % (1000 * 60)) / 1000));
+                    // Stop
+                    if (this.distance < 0) {
+                      this.show = false;
+                      clearInterval(this.countdown);
+                      this.days = '00';
+                      this.hours = '00';
+                      this.minutes = '00';
+                      this.seconds = '00';
+                    } else {
+                      this.show = true;
+                    }
+                  }, 100);
+                },
+                padNum: function (num) {
+                  var zero = '';
+                  for (var i = 0; i < 2; i++) {
+                    zero += '0';
+                  }
+                  return (zero + num).slice(-2);
+                }
+              }
+            }
+          </script>
+        </div>
+        <!-- timer end -->
+
+        <!-- header start -->
+        <div class="col-span-4 rounded-t-xl bg-dark  mx-1"
+          style="height:250px;background-image:url(./images/top_banner.png);background-position:50%;background-size:cover">
+        </div>
+        <div class="rounded-b-lg col-span-4 bg-dark mx-1">
+
+          <div class="flex justify-end -mt-3 px-4">
+            <!-- <span
+              class="inline-block ring-4 bg-red-500 ring-gray-800 rounded-full text-sm font-medium tracking-wide text-gray-100 px-3 pt-0.5">
+              Wax Blockchain
+            </span> -->
+            <div class="flex">
+              <a href="https://discord.gg/6ZGjDHNhnq"
+                class="flex h-min items-center rounded-full text-white bg-dark py-2 px-2 text-lg  mx-1">
+                <i class="fab fa-discord"></i>
+                <!-- <p class=" font-semibold text-xs">
+                  Discord
+                </p> -->
+              </a>
+              <a href="https://t.me/jonezyartnft/"
+                class="flex h-min items-center rounded-full text-white bg-dark py-2 px-2 text-lg  mx-1">
+                <i class="fab fa-telegram-plane"></i>
+                <!-- <p class=" font-semibold text-xs">
+                  Telegram
+                </p> -->
+              </a>
+            </div>
+          </div>
+
+          <div class="px-3 py-3 sm:px-5 sm:py-5 text-gray-400">
+            <h1 class="font-bold text-2xl sm:text-5xl text-white">Corporate World</h1>
+            <h2 class="font-normal text-md sm:text-xl">NFT Collectible Cards</h2>
+            <p class="text-sm sm:text-md sm:block pt-1">Enter a workplace like no other! BeelzeBoss’s unique aura has
+              corrupted the long-time employees and morphed
+              them into worst versions of themselves. Even objects in the office become sentient... having a mind of
+              their own.</p>
+          </div>
+        </div>
+        <!-- header end -->
+
+        <!-- spacer start -->
+        <div class="col-span-4 pb-2"></div>
+        <!-- spacer end -->
+
+
+
+
+
+
+        <!-- section start -->
+        <div class="section-wrapper relative col-span-4 row-span-1 rounded-lg m-1">
+
+
+          <a href="https://neftyblocks.com/c/corpworldhel" target="_blank" class="rounded-lg"
+            style="background-image:url(./images/banner_buy_packs.png);"></a>
+
+          <div class="absolute bottom-0 section w-full">
+            <!-- <div class="absolute inset-0 bg-gradient-to-t from-black opacity-50"></div> -->
+            <div class="px-3 py-3 sm:px-5 sm:py-5">
+              <h1 class="text-sm sm:text-xl "><span>Buy Packs</span></h1>
+              <h2 class="text-md hidden sm:block "><span>Grab the latest drops</span></h2>
+            </div>
+          </div>
+        </div>
+        <!-- section end -->
+
+
+        <!-- section start -->
+        <div class="section-wrapper relative col-span-2 row-span-1 rounded-lg m-1">
+          <a href="https://neftyblocks.com/c/corpworldhel/packs" target="_blank" class="rounded-lg"
+            style="background-image:url(./images/small_banner_open_packs.png);"></a>
+
+
+          <div class="absolute bottom-0 section w-full">
+            <!-- <div class="absolute inset-0 bg-gradient-to-t from-black opacity-50"></div> -->
+            <div class="px-3 py-3 sm:px-5 sm:py-5">
+              <h1 class="text-sm sm:text-xl "><span>Open Packs</span></h1>
+              <h2 class="text-md hidden sm:block "><span>See what NFTs you got</span></h2>
+            </div>
+          </div>
+        </div>
+        <!-- section end -->
+
+        <!-- section start -->
+        <div class="section-wrapper relative col-span-2 row-span-1 rounded-lg m-1">
+
+
+          <a href="https://neftyblocks.com/c/corpworldhel/blend" target="_blank" class="rounded-lg"
+            style="background-image:url(./images/small_banner_blend.png);"></a>
+
+          <div class="absolute bottom-0 section w-full">
+            <!-- <div class="absolute inset-0 bg-gradient-to-t from-black opacity-50"></div> -->
+            <div class="px-3 py-3 sm:px-5 sm:py-5">
+              <h1 class="text-sm sm:text-xl "><span>Blend Cards</span></h1>
+              <h2 class="text-md hidden sm:block "><span>Combine and create new cards</span></h2>
+            </div>
+          </div>
+        </div>
+        <!-- section end -->
+
+
+        <!-- section start -->
+        <div class="relative col-span-4 row-span-1  m-1 bg-dark rounded-lg">
+
+
+          <a href="https://twitter.com/CorpWorld_NFT" target="_blank" class="rounded-lg"
+            style="display: block; height:200px;background-image:url(./images/series2.png);background-position:top right;background-size: auto; background-repeat: no-repeat;"></a>
+          <div class="absolute bottom-0 section">
+            <div class="px-3 py-3 sm:px-5 sm:py-5">
+              <h1 class="text-sm sm:text-xl "><span>Twitter</span></h1>
+              <h2 class="text-md hidden sm:block "><span>Follow us and get updates</span></h2>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- section end -->
+
+        <!-- artist start -->
+
+        <div class="rounded-lg col-span-4 bg-dark mx-1">
+
+          <h1
+            class="px-3 py-3 sm:px-5 sm:py-5 leading-tight text-2xl tracking-tight sm:text-3xl sm:leading-tight md:text-4xl md:leading-tight font-medium text-white">
+            About the Artist
+          </h1>
+
+          <div class="flex flex-wrap items-start  ">
+
+            <div class="w-full md:w-1/3 px-12 mb-10 transform -rotate-6">
+
+              <img src="./images/jonezyart_joni.jpg" alt="Joni Artist">
+            </div>
+            <div class="w-full md:w-2/3 px-10 mb-10">
+
+
+              <p class="sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed text-gray-400 leading-relaxed">
+                Jonezy is a self-taught artist from the Philippines. He too longs for the day he can
+                escape the clutches of the Corporate World!
+              </p>
+              <h2
+                class="text-white leading-tight text-lg tracking-tight  sm:leading-tight md:text-lg md:leading-tight mt-3 ">
+                Lifelong Craftsman:</h2>
+
+              <p class="sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed text-gray-400 leading-relaxed">
+                He loves to experiment and building things - apps, games, art, and more! As an artist, he works in a
+                variety
+                of
+                styles
+                and continues to learn and push his skills to the edge.
+              </p>
+
+
+
+              <h2
+                class="text-white leading-tight text-lg tracking-tight  sm:leading-tight md:text-lg md:leading-tight mt-3 ">
+                Collector By Heart:</h2>
+
+              <p class="sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed text-gray-400 leading-relaxed">
+                Given the chance he will collect toys, cards, LEGO, books, and artworks to fill up his apartment.
+                <br><br>He dreams of creating collectibles that
+                he would like to collect himself.
+              </p>
+
+
+              <h2
+                class="text-white leading-tight text-lg tracking-tight  sm:leading-tight md:text-lg md:leading-tight mt-3 ">
+                Inspired By:</h2>
+
+              <p class="sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed text-gray-400 leading-relaxed">
+                Cartoon/anime, retro comics, toys, pop surrealism, lowbrow art, and more!
+              </p>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- artist end -->
+
+
+        <!-- section start -->
+        <div class="relative col-span-4 row-span-1  m-1 bg-dark rounded-lg">
+
+
+          <a href="https://jonezy.art" target="_blank" class="rounded-lg"
+            style="display: block; height:200px;background-image:url(./images/banner_jonezyart.png);background-position:top right;background-size: auto; background-repeat: no-repeat;"></a>
+          <div class="absolute bottom-0 section">
+            <div class="px-3 py-3 sm:px-5 sm:py-5">
+              <h1 class="text-sm sm:text-xl "><span>JonezyArt</span></h1>
+              <h2 class="text-md hidden sm:block "><span>Check out other projects by Jonezy</span></h2>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- section end -->
+
+
+      </div>
+
+
+
+      <script src=https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js defer></script>
+</body>
 
 </html>
