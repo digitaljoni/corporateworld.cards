@@ -1,0 +1,172 @@
+{
+    "data": {
+        "schema": [
+            "personnel",
+            "infernals",
+            "series1",
+            "stickers",
+            "premium",
+            "promos",
+            "deluxe",
+            "specials",
+            "hr.files"
+        ],
+        "nav": [
+            {
+                "label": "Personnel",
+                "type": "category",
+                "list": [
+                    {
+                        "label": "Common",
+                        "schema": "personnel",
+                        "rarity": "common"
+                    },
+                    {
+                        "label": "Uncommon",
+                        "schema": "personnel",
+                        "rarity": "uncommon"
+                    },
+                    {
+                        "label": "Rare",
+                        "schema": "personnel",
+                        "rarity": "rare"
+                    },
+                    {
+                        "label": "Epic",
+                        "schema": "personnel",
+                        "rarity": "epic"
+                    },
+                    {
+                        "label": "Legendary",
+                        "schema": "personnel",
+                        "rarity": "legendary"
+                    },
+                    {
+                        "label": "Mythic",
+                        "schema": "personnel",
+                        "rarity": "mythic"
+                    }
+                ]
+            },
+            {
+                "label": "Infernals",
+                "type": "category",
+                "list": [
+                    {
+                        "label": "Common",
+                        "schema": "infernals",
+                        "rarity": "common"
+                    },
+                    {
+                        "label": "Uncommon",
+                        "schema": "infernals",
+                        "rarity": "uncommon"
+                    },
+                    {
+                        "label": "Rare",
+                        "schema": "infernals",
+                        "rarity": "rare"
+                    },
+                    {
+                        "label": "Epic",
+                        "schema": "infernals",
+                        "rarity": "epic"
+                    },
+                    {
+                        "label": "Legendary",
+                        "schema": "infernals",
+                        "rarity": "legendary"
+                    },
+                    {
+                        "label": "Mythic",
+                        "schema": "infernals",
+                        "rarity": "mythic"
+                    },
+                    {
+                        "label": "Extraordinary",
+                        "schema": "infernals",
+                        "rarity": "extraordinary"
+                    }
+                ]
+            },
+            {
+                "label": "Series1",
+                "type": "category",
+                "list": [
+                    {
+                        "label": "Common",
+                        "schema": "series1",
+                        "rarity": "common"
+                    },
+                    {
+                        "label": "Uncommon",
+                        "schema": "series1",
+                        "rarity": "uncommon"
+                    },
+                    {
+                        "label": "Rare",
+                        "schema": "series1",
+                        "rarity": "rare"
+                    },
+                    {
+                        "label": "Epic",
+                        "schema": "series1",
+                        "rarity": "epic"
+                    },
+                    {
+                        "label": "Legendary",
+                        "schema": "series1",
+                        "rarity": "legendary"
+                    },
+                    {
+                        "label": "Mythic",
+                        "schema": "series1",
+                        "rarity": "mythic"
+                    },
+                    {
+                        "label": "Extraordinary",
+                        "schema": "series1",
+                        "rarity": "extraordinary"
+                    }
+                ]
+            },
+            {
+                "label": "Deluxe",
+                "schema": "deluxe",
+                "rarity": ""
+            },
+            {
+                "label": "Stickers",
+                "schema": "stickers",
+                "rarity": ""
+            },
+            {
+                "label": "Premium",
+                "schema": "premium",
+                "rarity": ""
+            },
+            {
+                "label": "HR Files",
+                "schema": "hr.files",
+                "rarity": ""
+            },
+            {
+                "label": "Promos",
+                "schema": "promos",
+                "rarity": ""
+            }
+        ],
+        "hidden": [
+            "219320",
+            "219321",
+            "219322",
+            "219324",
+            "219327",
+            "219328"
+        ],
+        "thumbnail": {
+            "152195": "QmWYMAwNm9PUXT9wBiudwyorkzJbx4XmZKg8S2W3M6ZDUk"
+        },
+        "noThumbnail": "QmWYMAwNm9PUXT9wBiudwyorkzJbx4XmZKg8S2W3M6ZDUk"
+    }
+}
