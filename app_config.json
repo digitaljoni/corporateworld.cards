@@ -14,6 +14,7 @@
         "nav": [
             {
                 "label": "Personnel",
+                "schema": "personnel",
                 "type": "category",
                 "list": [
                     {
@@ -50,6 +51,7 @@
             },
             {
                 "label": "Infernals",
+                "schema": "infernals",
                 "type": "category",
                 "list": [
                     {
@@ -91,6 +93,7 @@
             },
             {
                 "label": "Series1",
+                "schema": "series1",
                 "type": "category",
                 "list": [
                     {
