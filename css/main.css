@@ -41,3 +41,34 @@ h1, .font-roboto {
 .bg-dark {
     background-color: #151515;
 }
+
+.app-store-buttons > a {
+
+    display: block;
+    overflow: hidden;
+    text-indent: -9999em;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4px;
+
+}
+
+.app-store-buttons > a.apple {
+    background: url(../images/button_appstore.png) no-repeat;
+    background-size: 148px 50px;
+    width: 148px;
+}
+
+
+.app-store-buttons > a.google {
+    background: url(../images/button_googleplay.png) no-repeat;
+    background-size: 148px 50px;
+    width: 148px;
+}
+
+.app-store-buttons > a.webapp {
+    background: url(../images/button_webapp.png) no-repeat;
+    background-size: 148px 50px;
+    width: 148px;
+}
